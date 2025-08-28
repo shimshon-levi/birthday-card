@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>הפתעת יום הולדת!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-title">
+      🎁 מזל טוב אהובה! גרדי את הכרטיס כדי לגלות את ההפתעה 🎁
+    </header>
+
+    <main>
+      <section id="scratchCard" aria-label="כרטיס גירוד הפתעה">
+        <div id="result" role="img" aria-label="תמונת ההפתעה"></div>
+        <canvas id="scratch"></canvas>
+      </section>
+
+      <div id="wow" role="alert" aria-live="assertive">
+        🎉 הפתעת יום הולדת! נוסעים יחד לכותל המערבי 🎉
+      </div>
+    </main>
+
+    <!-- בלונים נוצרים כאן דינמית -->
+    <div id="balloon-layer" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
